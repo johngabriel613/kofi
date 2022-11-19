@@ -1,0 +1,54 @@
+@use '../util/' as u;
+
+.footer{
+    padding: 0 10px;
+    background: u.$base-color;
+    color: #fff;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 50px 0;
+        text-align: center;
+
+        &__logo{
+            display: flex;
+            align-items: center;
+
+            svg{
+                font-size: 3rem;
+            }
+
+            span{
+                font-size: 2rem;
+                font-weight: 600;
+            }
+        }
+
+        &__socials{
+            display: flex;
+            font-size: 2rem;
+            gap: 2rem;
+        }
+
+        &__nav{
+            ul{
+                display: flex;
+                gap: 1.5rem;
+
+                li{
+                    a{
+                        color: #fff;
+                        font-size: clamp(0.9rem, 0.775rem + 0.4vw, 1rem);
+                    }
+                }
+            }
+        }
+
+        &__credits{
+            font-size: clamp(0.9rem, 0.775rem + 0.4vw, 1rem);
+        }
+    }
+}
