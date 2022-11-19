@@ -101,6 +101,7 @@
 
                     &__text{
                         text-align: center;
+                        width: 100%;
 
                         &__name{
                             line-height: 1.2;
@@ -112,12 +113,13 @@
                         }
 
                         button{
-                            font-size: .9rem;
+                            font-size: .8rem;
                             color: u.$highlight;
-                            background: none;
+                            background: u.$inner-card;
                             border: none;
                             outline: none;
                             cursor: pointer;
+                            border-radius: 5px;
                         }
                     }
                 }

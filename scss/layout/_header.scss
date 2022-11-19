@@ -69,6 +69,7 @@
                     border-radius: 50px;
                     color: #fff;
                     font-weight: 500;
+                    font-size: clamp(0.9rem, 0.775rem + 0.4vw, 1rem);
                     
                     
                     svg{
@@ -183,7 +184,7 @@
                         font-weight: 500;
     
                         svg{
-                            font-size: 1.5rem;
+                            font-size: 1.7rem;
                             color: red;
                             cursor: pointer;
                         }

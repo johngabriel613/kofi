@@ -128,7 +128,7 @@ document.querySelector('.js-cards').innerHTML = categories.map((item) =>
         <div class="menu__wrapper__list__cards__card__text">
             <div class="menu__wrapper__list__cards__card__text__name">
                 <p>${title}</p>
-            </div>` + "<button onclick= 'addtocart1("+(i++)+")'>Add to bag +</button>"+
+            </div>` + "<button onclick= 'addtocart1("+(i++)+")'>Add to bag+</button>"+
         `</div>
     </div>`
     )
@@ -148,7 +148,7 @@ document.querySelector('.js-cards2').innerHTML = categories2.map((item) =>
         <div class="menu__wrapper__list__cards__card__text">
             <div class="menu__wrapper__list__cards__card__text__name">
                 <p>${title}</p>
-            </div>` + "<button onclick= 'addtocart2("+(k++)+")'>Add to bag +</button>"+
+            </div>` + "<button onclick= 'addtocart2("+(k++)+")'>Add to bag+</button>"+
         `</div>
     </div>`
     )
