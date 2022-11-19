@@ -27,10 +27,10 @@
                     <svg xmlns="http://www.w3.org/2000/svg" style="vertical-align: -0.125em;" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"/></svg>
                 </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Menu</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Find us</a></li>
+                    <li><a onclick="closeNav()" href="#home">Home</a></li>
+                    <li><a onclick="closeNav()" id="menubtn" href="#menu">Our Menu</a></li>
+                    <li><a onclick="closeNav()" id="aboutbtn" href="#about">About us</a></li>
+                    <li><a onclick="closeNav()" id="contactbtn" href="#contact">Find us</a></li>
                 </ul>
             </nav>
         <div class="header__wrapper__btn">
@@ -79,7 +79,7 @@
         </div>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home__wrapper">
             <div class="home__wrapper__text">
                 <div class="home__wrapper__text__heading">
@@ -101,7 +101,7 @@
         </div>
     </section>
 
-    <section class="menu">
+    <section class="menu" id="menu">
         <div class="menu__wrapper">
             <div class="menu__wrapper__title">
                 <h2>Our Menu</h2>
@@ -126,7 +126,7 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="about__wrapper">
             <div class="about__wrapper__title">
                 <h2>About us</h2>
@@ -148,7 +148,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact__wrapper">
             <div class="contact__wrapper__title">
                 <h2>Get in touch</h2>
@@ -195,10 +195,10 @@
             </div>
             <nav class="footer__wrapper__nav">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Menu</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Find us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#contact">Find us</a></li>
                 </ul>
             </nav>
             <div class="footer__wrapper__credits">

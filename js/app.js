@@ -9,6 +9,8 @@ window.addEventListener('scroll', () => {
     }
 });
 
+
+
 //Menu
 const nav = document.querySelector('.js-nav'),
 openMenu = document.querySelector('.js-menu'),
@@ -20,6 +22,10 @@ openMenu.addEventListener('click', () => {
 closeMenu.addEventListener('click', () => {
     nav.classList.remove('active')
 })
+
+function closeNav(){
+    nav.classList.remove('active')
+}
 
 //Open Bag
 const openBag = document.querySelector('.js-bag'),
@@ -38,32 +44,32 @@ closeBag.addEventListener('click', () => {
 const product = [
     {
         id: 0,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Caramel Machiatto',
         rating: '4.9'
     },
     {
         id: 1,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Caramel Ribbon',
         rating: '4.7'
     },
     {
         id: 2,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Strawberry Funnel',
         rating: '4.5'
     }
     ,
     {
         id: 3,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Caramel Frapuccino',
         rating: '4.5'
     },
     {
         id: 4,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Caffe Misto',
         rating: '4.4'
     }
@@ -72,32 +78,32 @@ const product = [
 const product2 = [
     {
         id: 5,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Brew Coffee',
         rating: '4.9'
     },
     {
         id: 6,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Coffee Jelly',
         rating: '4.7'
     },
     {
         id: 7,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Java Chip',
         rating: '4.5'
     }
     ,
     {
         id: 8,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Espresso Macchiato',
         rating: '4.5'
     },
     {
         id: 9,
-        image:'/images/coffee.png',
+        image:'./images/coffee.png',
         title: 'Iced Cappuccino',
         rating: '4.4'
     }

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: url(../images/bg.png) no-repeat;
   background-size: cover;
@@ -294,6 +298,7 @@ body {
 
 .menu {
   padding: 0 10px;
+  scroll-margin-top: 20px;
 }
 .menu__wrapper {
   width: min(100%, 1200px);
@@ -405,6 +410,7 @@ body {
 
 .about {
   padding: 0 10px;
+  scroll-margin-top: 20px;
 }
 .about__wrapper {
   width: min(100%, 1200px);
@@ -471,6 +477,7 @@ body {
 
 .contact {
   padding: 0 10px;
+  scroll-margin-top: 20px;
 }
 .contact__wrapper {
   width: min(100%, 1200px);
