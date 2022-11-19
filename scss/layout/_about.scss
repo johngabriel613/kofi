@@ -56,12 +56,13 @@
                     gap: .2rem;
                     font-size: clamp(0.9rem, 0.775rem + 0.4vw, 1rem);
                     background: u.$base-color;
+                    font-weight: 500;
                     border-radius: 50px;
                     padding: 10px 15px;
                     color: #f2f3f4;
 
                     svg{
-                        font-size: 2rem;
+                        font-size: clamp(1.9rem, 1.775rem + 0.4vw, 2rem);
                     }
                 }
             }
